@@ -33,7 +33,16 @@ for (var c = 1; c <= 20; c++) {
 }
 
 // Jawaban Nomor 3
-// saya gak tau mas, nyerah
+for ( let i = 1; i <= 7; i++) {
+
+    let str = '';
+
+    for(let j = 1; j <= i; j++) {
+        str += '*';
+    }
+
+    console.log(str);
+}
 
 // Jawaban Nomor 4
 var kalimat = "saya sangat senang belajar javascript"
